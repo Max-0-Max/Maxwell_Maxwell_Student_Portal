@@ -1,0 +1,127 @@
+---
+- # ====== List of Values: MAXWELL_STUDENTS.FULL_NAME ==========
+  id: 12877402692690520
+  identification: 
+    name: MAXWELL_STUDENTS.FULL_NAME
+
+  subscription: 
+    version-number: 34782504
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_STUDENTS
+
+  column-mapping: 
+    return: STUDENT_ID
+    display: FULL_NAME
+    default-sort: FULL_NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: MAXWELL_COURSE.COURSE_TITLE =========
+  id: 12878150746690528
+  identification: 
+    name: MAXWELL_COURSE.COURSE_TITLE
+
+  subscription: 
+    version-number: 34782515
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_COURSE
+
+  column-mapping: 
+    return: COURSE_ID
+    display: COURSE_TITLE
+    default-sort: COURSE_TITLE
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: MAXWELL_PAYMENT_TYPES.TYPE_NAME =====
+  id: 13645794599692334
+  identification: 
+    name: MAXWELL_PAYMENT_TYPES.TYPE_NAME
+
+  subscription: 
+    version-number: 36268897
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_PAYMENT_TYPES
+
+  column-mapping: 
+    return: TYPE_ID
+    display: TYPE_NAME
+    default-sort: TYPE_NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: LEVEL ===============================
+  id: 13739021180762321
+  identification: 
+    name: LEVEL
+
+  subscription: 
+    version-number: 36375168
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: 100 ==========================================
+    id: 13739319590762323
+    entry: 
+      sequence: 1
+      display: 100
+      return: 100
+
+  - # ====== Entry: 200 ==========================================
+    id: 13739794438762323
+    entry: 
+      sequence: 2
+      display: 200
+      return: 200
+
+  - # ====== Entry: 300 ==========================================
+    id: 13740119478762323
+    entry: 
+      sequence: 3
+      display: 300
+      return: 300
+
+  - # ====== Entry: 400 ==========================================
+    id: 13740575283762325
+    entry: 
+      sequence: 4
+      display: 400
+      return: 400
+
+- # ====== List of Values: SEMESTER ============================
+  id: 13740895165769995
+  identification: 
+    name: SEMESTER
+
+  subscription: 
+    version-number: 36375301
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: First ========================================
+    id: 13741141817769995
+    entry: 
+      sequence: 1
+      display: First
+      return: First
+
+  - # ====== Entry: Second =======================================
+    id: 13741538174769995
+    entry: 
+      sequence: 2
+      display: Second
+      return: Second
+

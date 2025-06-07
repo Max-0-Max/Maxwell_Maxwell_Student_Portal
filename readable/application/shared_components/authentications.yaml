@@ -1,0 +1,53 @@
+---
+- # ====== Authentication: Oracle APEX Accounts ================
+  id: 12857311248648465
+  identification: 
+    name: Oracle APEX Accounts
+
+  subscription: 
+    version-number: 34780422
+
+  settings: 
+    type: Oracle APEX Accounts
+
+  session-not-valid: 
+    redirect-to: Login Page
+
+  login-processing: 
+    switch-in-session: false
+
+  real-application-security: 
+    ras-mode: Disabled
+
+- # ====== Authentication: Students ============================
+  id: 12872926007653432
+  identification: 
+    name: Students
+
+  subscription: 
+    version-number: 34780920
+
+  settings: 
+    type: Custom
+    authentication-function-name: verify_user
+    enable-legacy-authentication-attributes: false
+
+  source: 
+    pl/sql-code: |
+      FUNCTION verify_user(
+          p_username IN VARCHAR2,
+          p_password IN VARCHAR2
+      ) RETURN BOOLEAN IS
+      BEGIN
+        RETURN maxwell_student_pkg.authenticate_user(p_username, p_password);
+      END;
+
+  session-not-valid: 
+    redirect-to: Login Page
+
+  login-processing: 
+    switch-in-session: false
+
+  real-application-security: 
+    ras-mode: Disabled
+
