@@ -1,0 +1,101 @@
+---
+- # ====== List of Values: MAXWELL_DEPARTMENTS.NAME ============
+  id: 12698999020089426
+  identification: 
+    name: MAXWELL_DEPARTMENTS.NAME
+
+  subscription: 
+    version-number: 34533597
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_DEPARTMENTS
+
+  column-mapping: 
+    return: DEPARTMENT_ID
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: DEPARTMENTS =========================
+  id: 12761995685057400
+  identification: 
+    name: DEPARTMENTS
+
+  subscription: 
+    version-number: 34642276
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_DEPARTMENTS
+
+  column-mapping: 
+    return: NAME
+    display: NAME
+    default-sort: NAME
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: MAXWELL_REGISTRATIONS.SEMESTER ======
+  id: 13006432089275856
+  identification: 
+    name: MAXWELL_REGISTRATIONS.SEMESTER
+
+  subscription: 
+    version-number: 34874532
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: MAXWELL_REGISTRATIONS
+
+  column-mapping: 
+    return: REGISTRATION_ID
+    display: SEMESTER
+    default-sort: SEMESTER
+    sort-direction: Ascending (Nulls Last)
+
+- # ====== List of Values: LEVEL ===============================
+  id: 13734476752557859
+  identification: 
+    name: LEVEL
+
+  subscription: 
+    version-number: 36356580
+
+  source: 
+    location: Static Values
+
+  entries: 
+  - # ====== Entry: 100 ==========================================
+    id: 13734772154557860
+    entry: 
+      sequence: 1
+      display: 100
+      return: 100
+
+  - # ====== Entry: 200 ==========================================
+    id: 13735178610557864
+    entry: 
+      sequence: 2
+      display: 200
+      return: 200
+
+  - # ====== Entry: 300 ==========================================
+    id: 13735558492557864
+    entry: 
+      sequence: 3
+      display: 300
+      return: 300
+
+  - # ====== Entry: 400 ==========================================
+    id: 13735952498557865
+    entry: 
+      sequence: 4
+      display: 400
+      return: 400
+

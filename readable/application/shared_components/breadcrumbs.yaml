@@ -1,0 +1,133 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 12680575158077010
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 12680702605077010
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: List of Students =============================
+    id: 12710605262089453
+    identification: 
+      name: List of Students
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # List of Students
+
+  - # ====== Entry: List of Departments ==========================
+    id: 12746027326557009
+    identification: 
+      name: List of Departments
+      page-number: 4
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:4:&APP_SESSION.::&DEBUG.:::'
+        page: 4 # List of Departments
+
+  - # ====== Entry: List of Courses ==============================
+    id: 12822445480917276
+    identification: 
+      name: List of Courses
+      page-number: 20
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:20:&APP_SESSION.::&DEBUG.:::'
+        page: 20 # List of Courses
+
+  - # ====== Entry: STUDENT-COURSES REGISTERED FOR ===============
+    id: 12960812102171143
+    identification: 
+      name: STUDENT-COURSES REGISTERED FOR
+      page-number: 26
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:26:&APP_SESSION.::&DEBUG.:::'
+        page: 26 # STUDENT-COURSES REGISTERED FOR
+
+  - # ====== Entry: Calculate CGPA AND GPA =======================
+    id: 13402419405668625
+    identification: 
+      name: Calculate CGPA AND GPA
+      page-number: 7
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:7:&APP_SESSION.::&DEBUG.:::'
+        page: 7 # Calculate CGPA AND GPA
+
+  - # ====== Entry: Scores =======================================
+    id: 13564280451283168
+    identification: 
+      name: Scores
+      page-number: 8
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:8:&APP_SESSION.::&DEBUG.:::'
+        page: 8 # Scores
+
+  - # ====== Entry: GPA&#x2F;CGPA ================================
+    id: 13577845901192128
+    identification: 
+      name: GPA&#x2F;CGPA
+      page-number: 14
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:14:&APP_SESSION.::&DEBUG.:::'
+        page: 14 # GPA/CGPA
+
+  - # ====== Entry: Payment Dashboard ============================
+    id: 13687641132176579
+    identification: 
+      name: Payment Dashboard
+      page-number: 22
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:22:&APP_SESSION.::&DEBUG.:::'
+        page: 22 # Payment Dashboard
+
